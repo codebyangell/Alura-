@@ -176,4 +176,11 @@ body{
     margin-bottom: 1.5em;
 }
 
-/* Fim Footer */
+.footer__texto a{
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.footer__texto a:hover{
+    color: #23b9ff;
+}
