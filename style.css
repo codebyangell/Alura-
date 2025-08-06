@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Primeira Section do site */
+
+.container__conteudo{
+   margin: 0 6em;
+}
+
+.principal{
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__button{
+    color: var(--branco-principal);
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__button:hover{
+    background-color: var(--branco-principal);
+    color: var(--botao-azul);
+}
+
+.container_secundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container_aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__imagem{
+    margin: 1em 0 2em 0;
+}
+
+/* Fim Primeira Section do site */
+
+/* Segunda Section do site */
+
+.secundario__imagem{
+    width: 100%;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+    text-align: center;
+}
+
+.container__descricao{
+    width: 50em;
+    padding-left: 9.5em;
+}
+
+.container__titulo2{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--branco-principal);
+    text-align: left;
+    margin-bottom: 0.2em;
+}
+
+.container__texto{
+    text-align: justify;
+    font-size: 16px;
+    color: var(--cinza-secundario);
+    width: 35em;
+}
+
+/* Fim Segunda Section do site */
+
+.secundario__button{
+    display: inline-block;
+    margin: 1em;
+}
+
+.terceiro__imagem{
+    width: 100%;
+    margin-left: 17em;
+}
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0;
+}
+
+.dispositivos__title{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+
+}
+
+/* Footer */
+
+.footer{
+    text-align: center;
+}
+
+.footer__logo{
+    margin:1em 0;
+}
+
+
+.lista__link{
+    list-style: none;
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 16px;
+    margin: 0 1em;
+}
+
+.lista__link a:hover{
+    color: var(--botao-azul);
+}
+
+.footer__texto{
+    color: var(--cinza-secundario);
+    font-size: 14px;
+    margin-bottom: 1.5em;
+}
